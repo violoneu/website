@@ -3,8 +3,8 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import Logo from "../../assets/logo.svg";
 import "./navbar.css";
 
-const Menu = () => (
-  <>
+const Menu = (props) => (
+  <div style={{ display: 'flex' }}>
     <p>
       <a href="/projets">Projets</a>
     </p>
@@ -14,10 +14,10 @@ const Menu = () => (
     <p>
       <a href="/contact">Contact</a>
     </p>
-  </>
+  </div>
 );
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
@@ -31,7 +31,7 @@ const Navbar = () => {
 
   window.addEventListener("scroll", changeBackground);
 
-  return (
+  let navbarCode = (
     <div className={navbar ? "reli__navbar active" : "reli__navbar"}>
       <div className="reli__navbar-links">
         <div className="reli__navbar-links_logo">
@@ -85,6 +85,18 @@ const Navbar = () => {
       </div>
     </div>
   );
+
+  if (props.padded) {
+    return (
+      <div className="" style={{ paddingTop: '6rem' }}>
+        {navbarCode}
+      </div>
+    )
+  }
+  else {
+    return navbarCode;
+  }
+
 };
 
 export default Navbar;

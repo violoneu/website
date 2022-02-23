@@ -5,7 +5,7 @@ import { Footer, Navbar, Map } from "../components/";
 function Contact() {
   return (
     <div>
-      <Navbar />
+      <Navbar padded />
       <div>
         <Map />
       </div>

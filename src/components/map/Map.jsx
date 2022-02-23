@@ -32,16 +32,12 @@ class Mapped extends Component {
           <Map
             google={this.props.google}
             style={{
-              maxWidth: "40%",
-              maxHeight: "40%",
             }}
             zoom={14}
             initialCenter={{
               lat: 45.529011,
               lng: -73.600345,
-            }}
-            className="map"
-          >
+            }}>
             <Marker />
           </Map>
         </div>
