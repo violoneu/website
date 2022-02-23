@@ -1,0 +1,28 @@
+.reli__map-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  max-width: 40%;
+  max-height: 40%;
+  height: 40%;
+  padding: 2em;
+}
+
+.reli__map-title1 {
+  font-family: "Helvetica Neue LT (Black)", Helvetica, sans-serif;
+  color: #1180be;
+  font-size: 27px;
+  font-weight: 800;
+}
+.reli__map-title2 {
+  font-family: "Helvetica Neue LT (Black)", Helvetica, sans-serif;
+  color: #1180be;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 600;
+}

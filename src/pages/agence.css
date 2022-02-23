@@ -1,0 +1,174 @@
+.reli__agence-photo {
+  background-image: url(../assets/apic.jpg);
+  background-size: cover;
+  background-position: center;
+
+  max-width: 100vw;
+  height: 110vh;
+}
+.reli__agence-expertise-title {
+  text-align: center;
+  font-size: 2.25em;
+  font-weight: 800;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+
+.reli__agence-para1 {
+  background-color: #30362f;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 1em;
+
+  font-size: 0.8em;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.reli__agence-para15 {
+  font-size: 1em;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.reli__agence-para2 {
+  background-color: #30362f;
+  color: whitesmoke;
+  border-radius: 10px;
+
+  font-size: 0.8em;
+  font-weight: 700;
+  padding: 1em;
+}
+
+.reli__agence-expertise {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.reli__agence-expertise-services div {
+  padding: 1em;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.reli__agence-expertise-services div:nth-of-type(2n + 1) {
+  background-color: #30362f;
+  color: whitesmoke;
+}
+
+.reli__agence-equipe {
+  padding: 2.5em;
+}
+
+.reli__agence-titre {
+  font-size: 4.5rem;
+  color: whitesmoke;
+  text-align: right;
+  padding: 11em 1.5em;
+
+  font-weight: 2000;
+}
+
+.reli__agence-equipe-titre {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 800;
+  padding-bottom: 0.8em;
+}
+
+.reli__agence-equipe-pics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+
+  align-items: center;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+}
+
+.reli__agence-equipe-jf {
+  background-image: url(../assets/jf.jpg);
+  background-size: cover;
+  background-position: center;
+
+  width: 20em;
+  height: 20em;
+  margin: 1em;
+}
+
+.reli__agence-equipe-es {
+  background-image: url(../assets/es.jpg);
+  background-size: cover;
+  background-position: center;
+
+  width: 20em;
+  height: 20em;
+  margin: 1em;
+}
+
+.reli__agence-equipe-jj {
+  background-image: url(../assets/jj.jpg);
+  background-size: cover;
+  background-position: center;
+
+  width: 20em;
+  height: 20em;
+  margin: 1em;
+}
+
+.reli__agence-equipe-yp {
+  background-image: url(../assets/yp.jpg);
+  background-size: cover;
+  background-position: center;
+
+  width: 20em;
+  height: 20em;
+  margin: 1em;
+}
+
+.reli__agence-equipe-pm {
+  background-image: url(../assets/pm.jpg);
+  background-size: cover;
+  background-position: center;
+
+  width: 20em;
+  height: 20em;
+  margin: 1em;
+}
+
+.reli__agence-equipe-cn {
+  background-image: url(../assets/cn.jpg);
+  background-size: cover;
+  background-position: center;
+
+  width: 20em;
+  height: 20em;
+  margin: 1em;
+}
+
+.reli__agence-equipe-km {
+  background-image: url(../assets/km.jpg);
+  background-size: cover;
+  background-position: center;
+
+  width: 20em;
+  height: 20em;
+  margin: 1em;
+}
+
+/* @media (min-width: 991.98px) {
+  .reli__agence-expertise {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+} */

@@ -1,0 +1,63 @@
+.reli__header {
+  background-image: url(../../assets/fpic.jpg);
+  background-size: cover;
+  background-position: center;
+
+  max-width: 100vw;
+  max-height: 110vh;
+  height: 110vh;
+  margin-top: -91px;
+}
+
+.imgTitle {
+  font-size: 4.5rem;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 80vh;
+
+  font-weight: 2000;
+}
+
+@media (max-width: 575.98px) {
+  .reli__header {
+    background-size: cover;
+    max-width: 100vw;
+    max-height: 100vh;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .imgTitle {
+    font-size: 2.5rem;
+    color: whitesmoke;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .reli__header {
+    background-size: cover;
+    max-width: 100vw;
+    max-height: 100vh;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@media (max-width: 1199.98px) {
+  .reli__header {
+    background-size: cover;
+    max-width: 100vw;
+    max-height: 110vh;
+    top: 0;
+
+    width: 100vw;
+    height: 110vh;
+  }
+  .imgTitle {
+    padding-top: 60vh;
+  }
+}
